@@ -57,3 +57,5 @@ cas的服务端使用的是tomcat版本的5.3.14，下载地址：https://repo1.
 springboot项目都是在部署docker容器，vue项目则打包上传到nginx作为静态资源浏览，cas服务器则部署在tomcat中。
 
 由于cas服务器需要https，浏览器会自动将http跳转到https，所以浏览器的请求都要支持https。因此nginx也安装了SSL证书，并通过443端口对浏览器请求进行分配，静态资源定位到对应的vue项目，后端请求则配置反向代理转发请求。nginx还需要有配置图片资源的访问，满足博客内容中对图片资源的请求。
+
+xxl-job使用docker部署，在容器运行时配置mysql数据库连接与密码即可。
