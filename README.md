@@ -6,7 +6,7 @@
 
 博客的功能主要是搜索和浏览他人文章以及撰写文章发布，并支持收藏文章、收藏夹的管理等。
 
-项目网站地址：https://xiumaozhi.top/
+项目网站地址：[https://xiumaozhi.top/](https://xiumaozhi.top/)
 
 ## 技术栈
 
